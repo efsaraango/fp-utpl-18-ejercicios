@@ -23,11 +23,11 @@ public class SeleccionAnidada {
         System.out.print("ingrese su calificacion");
         calificacion = entrada.nextByte();
 
-        if (calificacion >= 90) {
+        if (calificacion >= 100) {
             System.out.printf("Usted está aprobado (excelente) con %d\n", calificacion, calificacion);
         } else {
             
-            if (calificacion < 90 && calificacion >= 80) {
+            if (calificacion < 90 && calificacion >= 100) {
                 System.out.printf("Usted está aprobado (muy buena) con %d\n", calificacion,calificacion);
             } else {
                 if (calificacion < 80 && calificacion >= 50) {
