@@ -42,12 +42,12 @@ public class Semana7 {
 
         entrada.nextLine();
 
-        for (int contador1 = 1; contador1 <= padre; contador1++) {
+        for (int contador1 = 0; contador1 < padre; contador1++) {
             
 
             System.out.println("Nombre del padre de familia:");
             nombre = entrada.nextLine();
-            System.out.printf("Cuanto dinero gana semanal familia:");
+            System.out.printf("Cuanto dinero gana semanal familia:\n");
             gana = entrada.nextDouble();
             System.out.println("Cuantos hijos tiene:");
             numhijo = entrada.nextInt();
